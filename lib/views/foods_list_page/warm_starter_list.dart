@@ -42,7 +42,7 @@ class _WarmStarterListPageState extends State<WarmStarterListPage> {
                     title: Text(warmStarterMenu[index].name, 
                     style: const TextStyle(fontStyle: FontStyle.italic, fontSize: 25, 
                     fontWeight: FontWeight.bold, color: Colors.white),),
-                    subtitle: Text("${formatAmount(warmStarterMenu[index].price!)}", 
+                    subtitle: Text("$formatAmount(warmStarterMenu[index].price!)", 
                     style: const TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),),
                     leading: CircleAvatar(backgroundImage: AssetImage(warmStarterMenu[index].photo),

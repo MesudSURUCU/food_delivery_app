@@ -78,7 +78,7 @@ class _SoupListPageState extends State<SoupListPage> {
                               color: Colors.white),
                         ),
                         subtitle: Text(
-                          "${formatAmount(soupMenu[index].price!)}",
+                          "$formatAmount(soupMenu[index].price!)",
                           style: const TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20,

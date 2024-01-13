@@ -43,7 +43,7 @@ class _MainCourseListState extends State<MainCourseListPage> {
                     title: Text(mainCourserMenu[index].name, 
                     style: const TextStyle(fontStyle: FontStyle.italic, fontSize: 25, 
                     fontWeight: FontWeight.bold, color: Colors.white),),
-                    subtitle: Text("${formatAmount(mainCourserMenu[index].price!)}", 
+                    subtitle: Text("$formatAmount(mainCourserMenu[index].price!)", 
                     style: const TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),),
                     leading: CircleAvatar(backgroundImage: AssetImage(mainCourserMenu[index].photo),

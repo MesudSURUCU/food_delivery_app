@@ -42,7 +42,7 @@ class _AppetizerListPageState extends State<AppetizerListPage> {
                     title: Text(appetizerMenu[index].name, 
                     style: const TextStyle(fontStyle: FontStyle.italic, fontSize: 25, 
                     fontWeight: FontWeight.bold, color: Colors.white),),
-                    subtitle: Text("${formatAmount(appetizerMenu[index].price!)}", 
+                    subtitle: Text("$formatAmount(appetizerMenu[index].price!)", 
                     style: const TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),),
                     leading: CircleAvatar(backgroundImage: AssetImage(appetizerMenu[index].photo),

@@ -18,6 +18,8 @@ class MenuDayListPage extends StatelessWidget {
   final List<String> saladList = ['Detoks Salata','Endivyen Salatası','Hellimli Salata','Kaşık Salatası','Kerevizli Tomtom',
  'Mısırlı Salata','Sezar Salata','Tavuklu Salata','Ton Balıklı Salata'];
 
+   MenuDayListPage({super.key});
+
 
 
   String getRandomMenuItem(List<String> itemList) {

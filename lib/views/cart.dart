@@ -9,13 +9,13 @@ class Cart extends StatefulWidget {
 
 class _CartState extends State<Cart> {
   
-  final TextEditingController _controller = TextEditingController();
+
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
         children: [

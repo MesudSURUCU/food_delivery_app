@@ -43,7 +43,7 @@ var drinkMenu = <MenuItem> [
                     title: Text(drinkMenu[index].name, 
                     style: const TextStyle(fontStyle: FontStyle.italic, fontSize: 25, 
                     fontWeight: FontWeight.bold, color: Colors.white),),
-                    subtitle: Text("${formatAmount(drinkMenu[index].price!)}", 
+                    subtitle: Text("$formatAmount(drinkMenu[index].price!)", 
                     style: const TextStyle(
                       fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),),
                     leading: CircleAvatar(backgroundImage: AssetImage(drinkMenu[index].photo),

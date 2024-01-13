@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/views/list_page/appetizer_list.dart';
-import 'package:food_delivery_app/views/list_page/dessert_list.dart';
-import 'package:food_delivery_app/views/list_page/drink_list.dart';
-import 'package:food_delivery_app/views/list_page/main_course_list.dart';
-import 'package:food_delivery_app/views/list_page/menu_day_list.dart';
-import 'package:food_delivery_app/views/list_page/salad_list.dart';
-import 'package:food_delivery_app/views/list_page/soup_list.dart';
-import 'package:food_delivery_app/views/list_page/warm_starter_list.dart';
+import 'package:food_delivery_app/views/foods_list_page/appetizer_list.dart';
+import 'package:food_delivery_app/views/foods_list_page/dessert_list.dart';
+import 'package:food_delivery_app/views/foods_list_page/drink_list.dart';
+import 'package:food_delivery_app/views/foods_list_page/main_course_list.dart';
+import 'package:food_delivery_app/views/foods_list_page/menu_day_list.dart';
+import 'package:food_delivery_app/views/foods_list_page/salad_list.dart';
+import 'package:food_delivery_app/views/foods_list_page/soup_list.dart';
+import 'package:food_delivery_app/views/foods_list_page/warm_starter_list.dart';
 
 Widget getPage(String pageName) {
   switch (pageName) {
