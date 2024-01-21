@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/features/widgets/bg_image.dart';
-import 'package:food_delivery_app/models/food_menu_list.dart';
-import 'package:food_delivery_app/models/format_amount.dart';
+import 'package:food_delivery_app/presentation/components/bg_image_oflist.dart';
+import 'package:food_delivery_app/models/entities/food_menu_list.dart';
+import 'package:food_delivery_app/presentation/components/format_amount.dart';
 
 class SoupListPage extends StatefulWidget {
   const SoupListPage({super.key});
@@ -78,7 +78,7 @@ class _SoupListPageState extends State<SoupListPage> {
                               color: Colors.white),
                         ),
                         subtitle: Text(
-                          "$formatAmount(soupMenu[index].price!)",
+                          "${formatAmount(soupMenu[index].price!)}",
                           style: const TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20,

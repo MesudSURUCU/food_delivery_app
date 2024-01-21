@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/features/widgets/get_page.dart';
-import 'package:food_delivery_app/models/food_menu_list.dart';
+import 'package:food_delivery_app/presentation/components/get_page.dart';
+import 'package:food_delivery_app/models/entities/food_menu_list.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({super.key});

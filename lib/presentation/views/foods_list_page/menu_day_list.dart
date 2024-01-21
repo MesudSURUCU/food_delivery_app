@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/features/widgets/bg_image.dart';
+import 'package:food_delivery_app/presentation/components/bg_image_oflist.dart';
 
 
 class MenuDayListPage extends StatelessWidget {

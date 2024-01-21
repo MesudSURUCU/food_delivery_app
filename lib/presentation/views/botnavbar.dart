@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/views/cart.dart';
-import 'package:food_delivery_app/views/menu_page.dart';
-import 'package:food_delivery_app/views/profile.dart';
-
+import 'package:food_delivery_app/presentation/views/cart.dart';
+import 'package:food_delivery_app/presentation/views/menu_page.dart';
+import 'package:food_delivery_app/presentation/views/profile.dart';
 
 
 class BotNavBarPage extends StatefulWidget {
